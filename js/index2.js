@@ -65,3 +65,4 @@ $(function(){
       $('.mob_overlay').stop().animate({ scrollTop: 11282}, 30000);
    });
 });
+
