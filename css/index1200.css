@@ -1181,7 +1181,6 @@ a.animated-button.victoria-two:after {
   transition: 0.5s;
   transition-delay: 0.5s;
 }
-
 .text_box2 > .num.active {
   transform: scaleX(1);
 }
@@ -1208,7 +1207,6 @@ a.animated-button.victoria-two:after {
   display: block;
   margin-top: 20px;
 }
-
 .text_box2 > .site_info{
   margin:30px 0px;
   font-size: 23px;

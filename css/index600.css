@@ -930,13 +930,13 @@ a.animated-button.victoria-two:after {
 /* section3 works */
 #se3{
     width: 100%;
-    height:5010px;
+    height:auto;
     margin-bottom: 250px;
 }
 
 .se3_works{
     width:100%;
-    height: 5010px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -965,7 +965,13 @@ a.animated-button.victoria-two:after {
   height: 400px;
   float: right;
   position: relative;
-
+  left: 100px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.port_img.active{
+  opacity: 1;
+  left: 0;
 }
 
 .portfoLio{
@@ -1015,18 +1021,68 @@ a.animated-button.victoria-two:after {
   font-size: 8vw;
   font-family: 'Rampart One', cursive;
   line-height: 70px;
+  position: relative;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.text_box > .num.active {
+  transform: scaleX(1);
+}
+.text_box > .num.active:before{
+  transform: scaleX(0);
+  transition-delay: 0.5s;
+}
+.text_box > .num:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e02bff;
+  transform-origin: right;
+  transition: 0.5s;
+  transition-delay: 0.5s;
 }
 
-.text_box > .page_title{
+.text_box > .num >.page_title{
   font-size: 32px;
   line-height: 40px;
   font-family: 'Anton', sans-serif;
+  display: block;
+  margin-top: 20px;
 }
 
 .text_box > .site_info{
   margin:30px 0px;
   font-size: 18px;
   font-family: 'Noto Sans KR', sans-serif;
+  position: relative;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.text_box > .site_info.active{
+  transform: scaleX(1);
+}
+.text_box > .site_info.active:before{
+  transform: scaleX(0);
+  transition-delay: 0.5s;
+}
+.text_box > .site_info:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: right;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  background-color: #f5e662;
 }
 
 .font_info{
@@ -1061,27 +1117,76 @@ a.animated-button.victoria-two:after {
 .text_box2{
   width:40%;
   height: 450px;
-    float: right;
-    text-align: right;
-    margin-bottom: 40px;
+  float: right;
+  text-align: right;
 }
 
 .text_box2 > .num{
   font-size: 8vw;
   font-family: 'Rampart One', cursive;
   line-height: 70px;
+  position: relative;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.text_box2 > .num.active {
+  transform: scaleX(1);
+}
+.text_box2 > .num.active:before{
+  transform: scaleX(0);
+  transition-delay: 0.5s;
+}
+.text_box2 > .num:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e02bff;
+  transform-origin: right;
+  transition: 0.5s;
+  transition-delay: 0.5s;
 }
 
-.text_box2 > .page_title{
+.text_box2 > .num >.page_title{
   font-size: 32px;
   line-height: 40px;
   font-family: 'Anton', sans-serif;
+  display: block;
+  margin-top: 20px;
 }
 
 .text_box2 > .site_info{
   margin:30px 0px;
   font-size: 18px;
   font-family: 'Noto Sans KR', sans-serif;
+  position: relative;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.text_box2 > .site_info.active{
+  transform: scaleX(1);
+}
+.text_box2 > .site_info.active:before{
+  transform: scaleX(0);
+  transition-delay: 0.5s;
+}
+.text_box2 > .site_info:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: right;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  background-color: #f5e662;
 }
 
 .text_box2 > .coding{
@@ -1108,14 +1213,14 @@ a.animated-button.victoria-two:after {
   height: 418px;
   position: relative;
   padding-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .connect{
   width: 100%;
-  height: 418px;
-  float: left;
-  position: absolute;
-  padding-top: 100px;
+  text-align: center;
 }
 
 
@@ -1126,7 +1231,7 @@ a.animated-button.victoria-two:after {
   color: #ef2178;
   -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: crimson;
-    width: 50%;
+    width: 100%;
 }
 
 .link_wrap{
@@ -1170,12 +1275,8 @@ a.animated-button.victoria-two:after {
 
 .my_call{
   width: 50%;
-  height: 165px;
-  float: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  text-align: right;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .phone_num span{
