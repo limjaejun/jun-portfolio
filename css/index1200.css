@@ -670,7 +670,7 @@ a {
   margin-bottom: 150px;
   transform: translateX(-200px);
   opacity: 0;
-  transition: all 2s ease-in;
+  transition: all 0.5s ease-in;
   font-family: 'Anton', sans-serif;
 }
 
@@ -681,7 +681,7 @@ a {
   font-size: 32px;
   transform: translateX(-200px);
   opacity: 0;
-  transition: all 2s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 
@@ -707,7 +707,7 @@ a {
   margin: 0 auto;
   transform: translateX(200px);
   opacity: 0;
-  transition: all 2s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .name{
@@ -717,7 +717,7 @@ a {
   width: 50%;
   transform: translateX(200px);
   opacity: 0;
-  transition: all 2s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .education h3{
@@ -733,7 +733,7 @@ a {
   height: 283px;
   transform: translateX(200px);
   opacity: 0;
-  transition: all 2s ease-in;
+  transition: all 0.5s ease-in;
   float: left;
   margin-right: 50px;
 }
@@ -756,7 +756,7 @@ a {
   justify-content: center;
   align-items: center;
   transform: translateY(-200px);
-  transition: all 2s ease-in;
+  transition: all 0.5s ease-in;
   opacity: 0;
 }
 
@@ -774,7 +774,7 @@ a {
   transform: rotate(-90deg);
   stroke-linecap: round;
   margin: 0 30px;
-  animation:load 2s forwards;
+  animation:load 0.5s forwards;
 }
 
 .skill2{
@@ -788,7 +788,7 @@ a {
   transform: rotate(-90deg);
   stroke-linecap: round;
   margin: 0 30px;
-  animation:load 2s forwards;
+  animation:load 0.5s forwards;
 }
 
 .skill3{
@@ -802,7 +802,7 @@ a {
   transform: rotate(-90deg);
   stroke-linecap: round;
   margin: 0 30px;
-  animation:load 2s forwards;
+  animation:load 0.5s forwards;
 }
 
 .skill4{
@@ -816,7 +816,7 @@ a {
   transform: rotate(-90deg);
   stroke-linecap: round;
   margin: 0 30px;
-  animation:load 2s forwards;
+  animation:load 0.5s forwards;
 }
 
 
@@ -944,7 +944,7 @@ a.animated-button.victoria-two:after {
     text-align: center;
     margin-bottom: 265px;
     opacity: 0;
-    transition: all 2s ease-in;
+    transition: all 0.5s ease-in;
     font-family: 'Anton', sans-serif;
 }
 
