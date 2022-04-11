@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jae-jun portfoLio</title>
+  <link rel="shortcut icon" href="img/logo.png">
+
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index600.css">
+  <link rel="stylesheet" href="css/index1200.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Besley&family=Noto+Sans+KR:wght@100;300&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <!-- font -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- scrollTrigger plugIn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
+  
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="conetent">
+      <!-- //section1 Home -->
+      <section id="se1">
+        <!-- hambuger btn function -->
+        <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+        <label for="main-navigation-toggle">
+          <span class="bar">
+            <img src="img/angle.svg" alt="">
+          </span>
+        </label>
+        <nav id="main-navigation" class="nav-main">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#se2">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#se3">Works</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#se4">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- logo -->
+        <div class="logo">
+          <a href="#"><img src="img/logo_white.png" alt="로고"></a>
+        </div>
+
+        <div class="contain">
+          <!-- //lefT_font -->
+          <div class="left_font">
+            <h2>web puplisher</h2>
+          </div>
+          <!-- grid animation -->
+          <div class="bg">
+            <div class="bg_in">
+
+            </div>
+          </div>
+
+          <div class="mid_font">
+            <span>I</span>
+            <span>AM</span>
+            <span>JAE JUN</span>
+            <p>2020</p>
+          </div>
+          <!-- hambuger_btn -->
+          <div class="move_wrap">
+            <div class="move">
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section2 about -->
+      <section id="se2">
+        <div class="se2_about">
+          <h1>about me</h1>
+          <div class="introduce">
+            <p> 신입 퍼블리셔 & 상세페이지 디자인
+            </p>
+          </div>
+          <div class="profile">
+            <div class="profile1">
+              <div class="me_img">
+                <img src="img/about_me.jpg" alt="본인 프로필 사진">
+              </div>
+              <div class="font_line">
+                안녕하세요! 저는 끈임없이 도전하는 신입퍼블리셔 & 상세페이지 디자인 임재준 입니다 <br>
+                저는 퍼블리셔 학원과정을 수료한과정과 상세페이지디자인을 독학으로 학습했습니다.
+              </div>
+            </div>
+
+            <div class="name">
+              <div class="who">
+                <h3>WHO?</h3>
+                Name : 임재준 <br>
+                Age : 25세 <br>
+                Phone-Number : 010-7170-4420 <br>
+                E-mail : wowns4420@naver.com
+              </div>
+
+
+              <div class="education">
+                <h3>EDUCATION</h3>
+                <p>21.03.15~09.15 <br>
+                  라인컴퓨터아트학원 <br>
+                  <span>교육 수료</span><br><br>
+                  22.03.03 ~ 03.28 <br>
+                  클래스101 상세페이지 <br>
+                  <span>강의 수료</span><br>
+                  <br>
+                  22.03.28 ~ 04.10 <br>
+                  상세페이지 작업<br>
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="skill">
+            <ul class="count">
+              <li class="skill_title">
+                90
+                <p>HTML</p>
+              </li>
+
+              <svg id="skill_loading" class="skill1">
+
+                <circle cx="100" cy="100" r="90">
+
+                </circle>
+              </svg>
+            </ul>
+
+            <ul class="count">
+              <li class="skill_title">
+                85
+                <p>CSS</p>
+              </li>
+
+              <svg id="skill_loading" class="skill2">
+                <circle cx="100" cy="100" r="90">
+
+                </circle>
+              </svg>
+            </ul>
+
+            <ul class="count">
+              <li class="skill_title">
+                60
+                <p>Detail Page</p>
+              </li>
+
+              <svg id="skill_loading" class="skill3">
+                <circle cx="100" cy="100" r="90">
+
+                </circle>
+              </svg>
+            </ul>
+            <ul class="count">
+              <li class="skill_title">
+                70
+                <p>JQUERY</p>
+              </li>
+              <svg id="skill_loading" class="skill4">
+                <circle cx="100" cy="100" r="90">
+
+                </circle>
+              </svg>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- section3 works -->
+      <section id="se3">
+        <div class="se3_works">
+          <h1>portfoLio</h1>
+          <div class="chapter_box">
+            <div class="chapter1">
+              <div class="text_box">
+                <h1 class="num">01
+                  <span class="page_title">PLANT <br>
+                    SHOPPING MALL
+                  </span>
+                </h1>
+                
+                <p class="site_info">식물 쇼핑몰 사이트입니다.</p>
+                <div class="font_info">
+                  <p class="flo_left">한달동안의 배움과정을 통해 HTML/CSS들로만 제작하게된
+                    식물 쇼핑몰 사이트입니다.
+                  </p>
+                </div>
+                <h3 class="coding">HTML</h3>
+                <h3 class="coding">CSS</h3>
+                <!-- btn main,sub -->
+                <div class="row">
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://jaejun.netlify.app/"  target='_blank' title="새창열림"
+                      class="btn btn-sm animated-button victoria-one">main
+                    </a> 
+                    
+                    </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://jaejun.netlify.app/sub.html" target="_blank" title="새창열림"
+                      class="btn btn-sm animated-button victoria-two">sub</a> 
+                    </div>
+                </div>
+
+              </div>
+
+
+              <div class="port_img">
+                <div class="portfoLio">
+                  <img src="img/se1img.jpg" alt="식물쇼핑몰">
+                </div>
+                <a href="https://jaejun.netlify.app/" class="overlay">
+                  <img src="img/hover_icon.png" alt="돋보기 아이콘" width="35" height="35">
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="chapter_box">
+            <div class="chapter2">
+              <div class="text_box2">
+                <h1 class="num">02
+                <span class="page_title">ASHLEY <br>
+                  FAMILY RESTAURANT
+                </span>
+              </h1>
+                <p class="site_info">
+                  애슐리 사이트입니다. <br>
+                </p>
+                <div class="font_info">
+                  <p class="flo_right">레스토랑에 고급진 분위기를 위해
+                    검정색계열 색을 위주로 제작하였습니다.</p>
+                </div>
+
+                <h3 class="coding">HTML</h3>
+                <h3 class="coding">CSS</h3>
+                <div class="row row_right">
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://jaejun2.netlify.app/" target="_blank" title="새창열림"
+                      class="btn btn-sm animated-button victoria-one">main
+                    </a> 
+                    </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://jaejun2.netlify.app/sub.html" target="_blank" title="새창열림"
+                      class="btn btn-sm animated-button victoria-two">sub</a> 
+                    </div>
+                </div>
+              </div>
+              <div class="port_img">
+                <div class="portfoLio">
+                  <img src="img/se2img.jpg" alt="">
+                </div>
+                <a href="https://jaejun2.netlify.app/" class="overlay">
+                  <img src="img/hover_icon.png" alt="돋보기 아이콘" width="35" height="35">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="chapter_box">
+            <div class="chapter3">
+              <div class="text_box">
+                <h1 class="num">03
+                <span class="page_title">KYOBO <br>
+                  BOOKSTORE SITE
+                </span>
+                </h1>
+                <p class="site_info">
+                  교보문고 사이트입니다.
+                </p>
+                <div class="font_info">
+                  <p class="flo_left">ajax를 활용하여 도서 목록을 api로 가져오고
+                    파란색계열에 편안한 색상으로 제작하였습니다.
+                  </p>
+                </div>
+                <h3 class="coding">HTML</h3>
+                <h3 class="coding">CSS</h3>
+                <h3 class="coding">JQUERY</h3>
+                <h3 class="coding">AJAX</h3>
+                <!-- btn main,sub -->
+                <div class="row">
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://kyobo-bookstore.netlify.app/" target="_blank" title="새창열림" title="새창열림"
+                      class="btn btn-sm animated-button victoria-one">main</a> 
+                    </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://kyobo-bookstore.netlify.app/sub.html"target="_blank" title="새창열림"
+                      class="btn btn-sm animated-button victoria-two">sub</a> 
+                    </div>
+                </div>
+
+              </div>
+
+              <div class="port_img">
+                <div class="portfoLio">
+                  <img src="img/se3img.jpg" alt="">
+                </div>
+                <a href="https://kyobo-bookstore.netlify.app/" class="overlay">
+                  <img src="img/hover_icon.png" alt="돋보기 아이콘" width="35" height="35">
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="chapter_box">
+            <div class="chapter4">
+              <div class="phone_wrap">
+                <img src="img/iphone_black.png" alt="아이폰 사진" width="230" height="450">
+                <ul class="mob_overlay">
+                  <li><img src="img/mob_overlay.png" alt=""></li>
+                </ul>
+              </div>
+              <div class="text_box2">
+                <h1 class="num">04
+                <span class="page_title">DANANG <br>
+                  TRAVEL RESPONSIVE SITE
+                </span>
+              </h1>
+                <P class="site_info">다낭여행 반응형사이트입니다.</P>
+                <div class="font_info">
+                  <p class="flo_right">
+                    처음으로 제작한 여행반응형 사이트입니다.
+                    주로 여름느낌에 시원한 배경색과 이미지들로 구성해보았습니다.
+                  </p>
+                </div>
+                <h3 class="coding">HTML</h3>
+                <h3 class="coding">CSS</h3>
+                <h3 class="coding">RESPONSIVE</h3>
+                <h3 class="coding">JQUERY</h3>
+                <!-- btn main,sub -->
+                <div class="row row_right">
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://jaejun3.netlify.app/" target="_blank" title="새창열림"
+                      class="btn btn-sm animated-button victoria-one">main</a> 
+                    </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://jaejun3.netlify.app/sub.html" target="_blank" title="새창열림"
+                      class="btn btn-sm animated-button victoria-two">sub</a> 
+                    </div>
+                </div>
+              </div>
+
+              <div class="port_img">
+                <div class="portfoLio">
+                  <img src="img/se4img.jpg" alt="">
+                </div>
+                <a href="https://jaejun3.netlify.app/" class="overlay">
+                  <img src="img/hover_icon.png" alt="돋보기 아이콘" width="35" height="35">
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="chapter_box">
+            <div class="chapter5">
+              <div class="phone_wrap">
+                <img src="img/iphone_black.png" alt="아이폰 사진" width="230" height="450">
+                <ul class="mob_overlay">
+                  <li><img src="img/mob_overlay2.png" alt=""></li>
+                </ul>
+              </div>
+              <div class="text_box">
+                <h1 class="num">05
+                <span class="page_title">PRIMA <br>
+                  REAL ESTATE RESPONSIVE SITE
+                </span>
+                </h1>
+                <P class="site_info">부동산 반응형 사이트입니다.</P>
+                <div class="font_info">
+                  <p class="flo_left">주로집의 소개를 하는 이미지들로 만들었고
+                    스크롤 애니메이션을 추가하여 부드러움을 연출해보았습니다.
+                  </p>
+                </div>
+                <h3 class="coding">HTML</h3>
+                <h3 class="coding">CSS</h3>
+                <h3 class="coding">RESPONSIVE</h3>
+                <h3 class="coding">JQUERY</h3>
+                <!-- btn main,sub -->
+                <div class="row">
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://jaejun4.netlify.app/" target="_blank" title="새창열림"
+                      class="btn btn-sm animated-button victoria-one">main</a> 
+                    </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="https://jaejun4.netlify.app/sub.html" target="_blank" title="새창열림"
+                      class="btn btn-sm animated-button victoria-two">sub</a> 
+                    </div>
+                </div>
+
+              </div>
+
+              <div class="port_img">
+                <div class="portfoLio">
+                  <img src="img/se5img.jpg" alt="부동산 사이트">
+                </div>
+                <a href="https://jaejun4.netlify.app/" class="overlay">
+                  <img src="img/hover_icon.png" alt="돋보기 아이콘" width="35" height="35">
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <!-- detail page -->
+          <div class="chapter_box">
+            <div class="chapter6">
+              <div class="text_box2">
+                <h1 class="num">06
+                <span class="page_title">detail page <br></span>
+              </h1>
+                <P class="site_info">아랑 화장품 상세페이지</P>
+                <div class="font_info">
+                  <p class="flo_right">
+                    CLASS101 유료강의와 유튜브강의를 보며 <br>
+                    독학해서 만든페이지입니다.
+                  </p>
+                </div>
+                <h3 class="coding">PHOTOSHOP</h3>
+                <h3 class="coding">MOCKUP</h3>
+                <h3 class="coding">SKILL</h3>
+                <!-- btn main,sub -->
+                <div class="row row_right">
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="img/arang_cream.psd" class="btn btn-sm animated-button victoria-one" download>PSD</a>
+                     </div>
+                </div>
+              </div>
+
+              <div class="port_img">
+                <div class="portfoLio">
+                  <img src="img/arangcream.png" alt="아랑크림상세페이지">
+                </div>
+                <a href="#" class="overlay">
+                  <img src="img/hover_icon.png" alt="돋보기 아이콘" width="35" height="35">
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="chapter_box">
+            <div class="chapter5">
+              
+              <div class="text_box">
+                <h1 class="num">07
+                <span class="page_title">DETAIL page 2<br>
+                  
+                </span>
+                </h1>
+                <P class="site_info">아랑 가구 상세페이지</P>
+                <div class="font_info">
+                  <p class="flo_left">CLASS101 유료강의와 유튜브강의를 보며 <br>
+                    독학해서 만든페이지입니다.
+                  </p>
+                </div>
+                <h3 class="coding">PHOTOSHOP</h3>
+                <h3 class="coding">MOCKUP</h3>
+                <h3 class="coding">SKILL</h3>
+                <!-- btn main,sub -->
+                <div class="row">
+                  <div class="col-md-3 col-sm-3 col-xs-6"> 
+                    <a href="img/arang_furniture.psd" class="btn btn-sm animated-button victoria-one" download>PSD</a>
+                    </div>
+                </div>
+
+              </div>
+
+              <div class="port_img">
+                <div class="portfoLio">
+                  <img src="img/arang_furniture.png" alt="아랑 가구 상세페이지">
+                </div>
+                <a href="#" class="overlay">
+                  <img src="img/hover_icon.png" alt="돋보기 아이콘" width="35" height="35">
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+      </section>
+
+      <!-- section4 contact -->
+      <section id="se4">
+        <div class="se4_contact">
+          <h1>contact</h1>
+          <div class="flex_box">
+            <div class="connect">
+              <h1 class="my_page">
+                thank you for opening my page
+              </h1>
+              <!-- <div class="link_wrap">
+                <div class="link"></div>
+                <a href="#"> contact me </a>
+              </div> -->
+            </div>
+
+            <div class="my_call">
+              <div class="mail">
+                <span>please send me a mail</span>
+                <p>wowns4420@naver.com</p>
+              </div>
+              <div class="phone_num">
+                <span>Contact me anytime</span>
+                <p>010-7170-4420</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="js/index2.js"></script>
+  <!-- script img scrollTrigger plugIn -->
+  <script type="text/javascript">
+  const textAnimate = gsap.utils.toArray('.num');
+  textAnimate.forEach((text, i)=>{
+        ScrollTrigger.create({
+          trigger: text,
+          toggleClass: 'active',
+          start: "top 80%",
+          end: "top 0%",
+          // markers:true
+        })
+      })
+      
+  const textAnimate2 = gsap.utils.toArray('.site_info');
+  textAnimate2.forEach((text, i)=>{
+        ScrollTrigger.create({
+          trigger: text,
+          toggleClass: 'active',
+          start: "top 90%",
+          end: "top 0%",
+          // markers:true
+        })
+      })
+
+    const portimg = gsap.utils.toArray('.port_img');
+    portimg.forEach((img, i)=>{
+      ScrollTrigger.create({
+        trigger: img,
+        toggleClass: 'active',
+        start: "top 80%",
+        end: "top 0%",
+        // markers:true
+      })
+    })
+  </script>
+  
+</body>
+</html>
